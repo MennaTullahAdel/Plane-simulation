@@ -1,0 +1,29 @@
+#version 330 core
+
+// Input data from vertex shader.
+
+in vec3 fragmentColor;
+
+in vec2 texCoord;
+
+// Ouput data
+out vec3 color;
+
+////////////////////
+uniform sampler2D myTextureSampler;
+
+//uniform int renderingmode;
+
+void main()
+{
+ //////////////////////////#//////////
+//  if(renderingmode==0)
+	//color = fragmentColor;
+	
+	//if(renderingmode==1)
+
+	color =fragmentColor+ texture( myTextureSampler,texCoord ).rgb;
+
+
+
+}

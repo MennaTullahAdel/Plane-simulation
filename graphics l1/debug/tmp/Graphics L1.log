@@ -1,0 +1,4 @@
+﻿Project file contains ToolsVersion="11.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+main.obj : error LNK2019: unresolved external symbol __imp__PlaySoundA@12 referenced in function _main
+C:\Users\Omar elbahrawy\Desktop\Graphics_proj\Debug\Graphics L1.exe : fatal error LNK1120: 1 unresolved externals
